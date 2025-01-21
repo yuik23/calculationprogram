@@ -9,10 +9,11 @@ Javaの基本構文を使用して、簡単な計算機プログラムを作成�
 ### ①整数と小数の四則演算
 計算結果を表示
 
-<img width="269" alt="{0589FD7F-8B65-4281-909A-E97A1692AF04}" src="https://github.com/user-attachments/assets/5236a3df-06b6-4dd8-974f-fad750ecc725" />
-<img width="265" alt="image" src="https://github.com/user-attachments/assets/f86349a1-10be-4373-92a9-e04a93acbd81" />
-<img width="268" alt="image" src="https://github.com/user-attachments/assets/65589377-948c-4072-b535-cee69442009c" />
-<img width="268" alt="image" src="https://github.com/user-attachments/assets/8b7c84b9-f6a3-443e-bab6-d5a19754b023" />
+<img width="269" alt="image" src="https://github.com/user-attachments/assets/e10420d2-2a1e-41a3-836e-ca18dda1e015" />
+<img width="268" alt="image" src="https://github.com/user-attachments/assets/9f018a8d-ad12-4b33-b24a-0e308705b818" />
+<img width="272" alt="{327B415F-9232-49A0-A81C-1D38B0DE663A}" src="https://github.com/user-attachments/assets/5694d9d9-11a6-41f6-aa39-c5cca499457f" />
+<img width="266" alt="{AB0AB93C-D242-40A3-88ED-3162D2236E15}" src="https://github.com/user-attachments/assets/1ec41eb7-b962-43b2-a88e-8c0144a1b92c" />
+
 
 ### ②変数number1,number2の入力値が小数もしくは整数でなかった場合
 メッセージを表示し計算を終了
