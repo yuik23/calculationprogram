@@ -75,7 +75,27 @@ public class Calculator {
         break;
     }
 
-    System.out.println(
-        parameter.getNumber1() + parameter.getOperator() + parameter.getNumber2() + "=" + result);
+    //整数の場合は整数表示にする
+    if (parameter.getNumber1() % 1 == 0) {
+      System.out.print((int) parameter.getNumber1());
+    } else {
+      System.out.print(parameter.getNumber1());
+    }
+
+    System.out.print(parameter.getOperator());
+
+    if (parameter.getNumber2() % 1 == 0) {
+      System.out.print((int) parameter.getNumber2());
+    } else {
+      System.out.print(parameter.getNumber2());
+    }
+
+    if (result % 1 == 0) {
+      System.out.print("=" + (int) result);
+    } else {
+      System.out.print("=" + result);
+    }
+
   }
 }
+
