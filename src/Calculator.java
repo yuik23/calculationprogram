@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -76,6 +77,16 @@ public class Calculator {
     }
 
     //整数の場合は整数表示にする
+    //①DecimalFormatを使用した場合
+    DecimalFormat displayFormat = new DecimalFormat("##########.##########");
+    System.out.println("\r\n*****DecimalFormatを使用した場合の出力結果");
+    System.out.print(
+        displayFormat.format(parameter.getNumber1()) + parameter.getOperator()
+            + displayFormat.format(parameter.getNumber2()));
+    System.out.println("=" + displayFormat.format(result));
+
+    //②if文を使用した場合
+    System.out.println("\r\n*****if文を使用した場合の出力結果");
     if (parameter.getNumber1() % 1 == 0) {
       System.out.print((int) parameter.getNumber1());
     } else {
