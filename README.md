@@ -27,3 +27,6 @@ Javaの基本構文を使用して、簡単な計算機プログラムを作成�
 
 <img width="275" alt="image" src="https://github.com/user-attachments/assets/b35e4558-c709-42ce-9563-2abaea07b64c" />
 
+### (DecimalFormatを使用した場合の出力結果を追加表示)
+<img width="345" alt="image" src="https://github.com/user-attachments/assets/1c99dfce-2750-4825-b81d-872d7cd8c2f8" />
+
